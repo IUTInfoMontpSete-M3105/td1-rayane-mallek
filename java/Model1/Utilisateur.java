@@ -3,7 +3,6 @@ import java.util.*;
 
 public class Utilisateur {
 
-
     private String nom;
     private String prenom;
     private String adrpost;
@@ -21,16 +20,15 @@ public class Utilisateur {
     /**
      * @return
      */
-    public void consulterNotes() {
-        // TODO implement here
+    public void consulterNotes(Rendu r) {
+        r.getNote();
     }
 
     /**
      * @return
      */
-    public Devoir consulterDevoirs() {
-        // TODO implement here
-        return null;
+    public void consulterDevoirs(Devoir d) {
+        return;
     }
 
     /**

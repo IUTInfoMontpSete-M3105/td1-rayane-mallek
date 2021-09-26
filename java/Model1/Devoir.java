@@ -7,14 +7,14 @@ public class Devoir {
     public Date deadline;
     public int nbrPoints;
 
-    public Devoir() {
+    public Devoir(String nom, String desc, Date deadline, int nbrPoints) {
+        this.nom = nom;
+        this.desc = desc;
+        this.deadline = deadline;
+        this.nbrPoints = nbrPoints;
     }
 
-    /**
-     * @return
-     */
     public int afficherPoints() {
-        // TODO implement here
         return nbrPoints;
     }
 

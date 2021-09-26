@@ -12,17 +12,17 @@ public class Enseignant extends Utilisateur {
         this.harpege = harpege;
     }
 
-    public void creerDevoir() {
-        ;
+    public Devoir creerDevoir(String nom, String desc, Date deadline, int nbrPoints) {
+        return new Devoir(nom, desc, deadline, nbrPoints);
     }
 
-    public void attribuerRendu(Rendu rendu) {
-        // TODO implement here
+    public void attribuerNoteRendu(Rendu rendu, int note) {
+        rendu.setNote(note);
     }
 
 
-    public void donnerAvisRendu(Rendu rendu) {
-        // TODO implement here
+    public void donnerAvisRendu(Rendu rendu, String avis) {
+        rendu.setAvis(avis);
     }
 
 
