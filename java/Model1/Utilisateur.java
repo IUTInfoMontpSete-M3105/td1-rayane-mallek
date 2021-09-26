@@ -1,46 +1,28 @@
 
 import java.util.*;
 
-/**
- * 
- */
 public class Utilisateur {
 
-    /**
-     * Default constructor
-     */
-    public Utilisateur() {
+
+    private String nom;
+    private String prenom;
+    private String adrpost;
+    private String adrmail;
+
+    public Utilisateur(String prenom, String nom, String adrpost, String adrmail) {
+        this.prenom = prenom;
+        this.nom = nom;
+        this.adrpost = adrpost;
+        this.adrmail = adrmail;
     }
-
-    /**
-     * 
-     */
-    public String nom;
-
-    /**
-     * 
-     */
-    public String prenom;
-
-    /**
-     * 
-     */
-    public String adrpost;
-
-    /**
-     * 
-     */
-    public String adrmail;
-
 
 
 
     /**
      * @return
      */
-    public Note consulterNotes() {
+    public void consulterNotes() {
         // TODO implement here
-        return null;
     }
 
     /**

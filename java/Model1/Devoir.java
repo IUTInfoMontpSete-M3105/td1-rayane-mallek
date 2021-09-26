@@ -1,55 +1,21 @@
-
-
 import java.util.*;
 
-/**
- * 
- */
 public class Devoir {
 
-    /**
-     * Default constructor
-     */
+    public String nom;
+    public String desc;
+    public Date deadline;
+    public int nbrPoints;
+
     public Devoir() {
     }
 
     /**
-     *
-     */
-    public String nom;
-
-    /**
-     * 
-     */
-    public String desc;
-
-    /**
-     * 
-     */
-    public Date deadline;
-
-    /**
-     * 
-     */
-    public int nbrPoints;
-
-
-
-
-
-
-
-
-
-
-
-
-    /**
      * @return
      */
-    public Points afficherPoints() {
+    public int afficherPoints() {
         // TODO implement here
-        return null;
+        return nbrPoints;
     }
 
 }

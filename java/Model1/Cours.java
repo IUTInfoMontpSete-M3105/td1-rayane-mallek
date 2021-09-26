@@ -6,16 +6,10 @@ import java.util.*;
  */
 public class Cours {
 
-    /**
-     * Default constructor
-     */
+    private String nom;
+
     public Cours() {
     }
-
-    /**
-     * 
-     */
-    public String nom;
 
 
 

@@ -6,21 +6,11 @@ import java.util.*;
  */
 public class Rendu {
 
-    /**
-     * Default constructor
-     */
+    public String avis;
+    public int note;
+
     public Rendu() {
     }
-
-    /**
-     * 
-     */
-    public String avis;
-
-    /**
-     * 
-     */
-    public int note;
 
 
 

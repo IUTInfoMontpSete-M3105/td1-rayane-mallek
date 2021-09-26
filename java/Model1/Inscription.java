@@ -1,25 +1,12 @@
 
 import java.util.*;
 
-/**
- * 
- */
 public class Inscription {
 
-    /**
-     * Default constructor
-     */
+    private int totPoints;
+    private String certificat;
+
     public Inscription() {
     }
-
-    /**
-     * 
-     */
-    public int totPoints;
-
-    /**
-     * 
-     */
-    public String certificat;
 
 }
